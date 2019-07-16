@@ -1,12 +1,11 @@
-header {
+.header {
     color: #f43;
-    padding: 1rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-header a {
+.header > a {
     margin-right: auto;
     font-weight: 500;
     text-decoration: none;

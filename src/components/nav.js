@@ -3,8 +3,14 @@ import { Link } from 'gatsby'
 import './nav.css'
 
 const Nav = () =>
-<nav>
-    <ul>
+<div className="navigation">
+    <input type="checkbox" name="" />
+    <span></span>
+    <span></span>
+    <ul class="menu">
+        <li>
+            <Link to="/">Britt Clennett</Link>
+        </li>
         <li>
             <Link to="/showreel">Showreel</Link>
         </li>
@@ -15,7 +21,8 @@ const Nav = () =>
             <Link to="/about">About</Link>
         </li>
     </ul>
-</nav>
+</div>
+
 
 
 export default Nav;

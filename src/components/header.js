@@ -4,7 +4,7 @@ import Nav from '../components/nav.js'
 import './header.css'
 
 const Header = () =>
-<header>
+<header className="header">
     <Link to="/">Britt Clennett</Link>
     <Nav />
 </header>

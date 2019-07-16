@@ -1,4 +1,77 @@
-nav {
+.navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #fff;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+    .navigation .menu {
+        margin: 0;
+        padding: 0;
+        width: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .navigation input:checked ~ .menu {
+        width: 100vw;
+        height: 100vh;
+        background: #f43;
+    }
+
+        .navigation .menu li {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            min-width: 10rem;
+            height: 1rem;
+            margin-right: 1rem;
+            position: relative ;
+        }
+            .navigation .menu li > a {
+                font-weight: 600;
+                text-decoration: none;
+                color: #fff;
+                transition: 0.5s;
+            }
+    .navigation input {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        opacity: 0;
+
+    }
+    .navigation span {
+        position: absolute;
+        left: 4px;
+        width: 32px;
+        height: 4px;
+        background: #f43;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+    .navigation input:checked ~ span {
+        background: #f43;
+    }
+    .navigation span:nth-child(2) {
+        transform: translateY(-8px);
+    }
+    .navigation input:checked ~ span:nth-child(2) {
+        transform: translateY(0) rotate(45deg);
+    }
+    .navigation span:nth-child(3) {
+        transform: translateY(8px);
+    }
+    .navigation input:checked ~ span:nth-child(3) {
+        transform: translateY(0) rotate(-45deg);
+    }
+
+
+
+/* nav {
     display: flex;
 }
 
@@ -18,4 +91,4 @@ nav ul li a {
     font-weight: 500;
     text-decoration: none;
     color: #f43;
-}
+} */
