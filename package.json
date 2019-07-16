@@ -31,7 +31,7 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "yarn build && rm -rf ./docs && mv ./public ./docs && git add . && git commit -m \"publish\" && git push"
+    "deploy": "yarn build && rm -rf ./docs && mv ./public ./docs && mv ./CNAME ./docs && git add . && git commit -m \"publish\" && git push"
   },
   "devDependencies": {
     "prettier": "^1.17.0"
