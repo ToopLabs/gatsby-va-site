@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import shot1 from '../images/shot1.jpg'
+import shot1 from '../images/shot1.png'
 import shot2 from '../images/shot2.png'
 
 
 import './hero.css'
 
 const Hero = () =>
-<section>
+<section className="hero">
     <h1>
         <span>Britt</span>
         <span>Clennett</span>
@@ -17,7 +17,7 @@ const Hero = () =>
         <img className="shot1" src={shot2} alt="Shot2" />
     </div>
     <h2>
-        A correspondent with over a decade of experience reporting from Asia.
+        A correspondent with over a decade of experience reporting from Asia
     </h2>
 </section>
 
