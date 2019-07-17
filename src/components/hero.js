@@ -17,7 +17,7 @@ const Hero = () =>
         <img className="shot1" src={shot2} alt="Shot2" />
     </div>
     <h2>
-        A correspondent with over a decade of experience reporting from Asia
+        Correspondent
     </h2>
 </section>
 
