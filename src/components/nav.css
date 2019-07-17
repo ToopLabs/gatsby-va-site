@@ -44,7 +44,7 @@
 
         }
             .navigation .menu li a {
-                font-weight: 600;
+                font-weight: 200;
                 text-decoration: none;
                 font-size: 10vw;
                 line-height: 0.8em;
@@ -88,26 +88,3 @@
         transform: translateY(0) rotate(-45deg);
     }
 
-
-
-/* nav {
-    display: flex;
-}
-
-nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: block;
-    margin-right: 1rem;
-    position: relative ;
-}
-
-nav ul li a {
-    font-weight: 500;
-    text-decoration: none;
-    color: #f43;
-} */
