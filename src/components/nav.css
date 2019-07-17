@@ -12,7 +12,7 @@
 
 
     .navigation .menu {
-        padding-top: 40px;
+        padding-top: 50px;
         padding-left: 0px;
         margin: 0;
         width: 0;
@@ -37,16 +37,23 @@
             list-style: none;
             display: flex;
             flex-direction: column;
-            min-width: 10rem;
-            height: 1rem;
-            margin-right: 1rem;
             position: relative ;
+            overflow: hidden;
+            margin-right: 1rem;
+            min-width: 80vw;
+
         }
-            .navigation .menu li > a {
+            .navigation .menu li a {
                 font-weight: 600;
                 text-decoration: none;
+                font-size: 10vw;
+                line-height: 0.8em;
+                padding: 0 0 0.3em 0;
                 color: #fff;
                 transition: 0.5s;
+                overflow-x: hidden;
+                margin-left: auto;
+
             }
     .navigation input {
         width: 40px;

@@ -27,6 +27,16 @@
         margin-inline-end: 0px;
     }
 
+    .preview .link {
+        margin: 2rem;
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+        font-weight: 600;
+        color: #333333;
+        display:block;
+    }
+
     .preview .list {
         margin: 0 auto;
         padding: 2rem 1rem 0;

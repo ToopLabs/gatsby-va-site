@@ -1,0 +1,25 @@
+
+
+.clients {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.clients .link {
+    display: block;
+    padding-bottom: 1.5rem;
+    color: #2097ac;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.clients .link .logo {
+    opacity: 0.5;
+    height: 1.5rem;
+    display: inline-block;
+    max-width: 100%;
+    color: #2097ac;
+    cursor: pointer;
+}

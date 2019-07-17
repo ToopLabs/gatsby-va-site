@@ -62,6 +62,7 @@ const Preview = () =>
             </div>
         </Link>
     </ul>
+    <Link className="link" to="/tv">Browse all stories →</Link>
 </section>
 
 
