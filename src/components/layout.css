@@ -1,9 +1,12 @@
-html{
+html {
     font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-stretch: condensed;
     -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
+    -webkit-text-size-adjust:100%;
 }
-body{
+
+body {
     margin:0;
     overflow-x: hidden;
 }

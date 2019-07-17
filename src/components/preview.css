@@ -99,8 +99,10 @@
                 .preview .list .item .description .title {
                     font-size: var(--font-large-size);
                     line-height: calc(27 / 18);
-                    font-weight: 600;
                     margin: 0;
+                    font-weight: 200;
+                    font-family: Roboto;
+                    font-stretch: condensed;
                 }
 
                 .preview .list .item .description .body {
@@ -108,11 +110,16 @@
                     line-height: var(--font-base-line-height);
                     color: #697a90;
                     margin: 0 0 calc(16 / 16 * 1rem) 0;
+                    font-weight: 200;
+                    font-family: Roboto;
+                    font-stretch: condensed;
                 }
 
                 .preview .list .item .description .action {
                     margin: auto 0 0;
                     color: #697a90;
-                    font-weight: 600;
+                    font-weight: 200;
+                    font-family: Roboto;
+                    font-stretch: condensed;
                 }
 
