@@ -38,8 +38,8 @@ module.exports = {
         name: 'Britt Clennett',
         short_name: 'Britt',
         start_url: '/britt',
-        background_color: '#5abcbd',
-        theme_color: '#5abcbd',
+        background_color: '#f43',
+        theme_color: '#f43',
         display: 'minimal-ui',
         icon: 'src/images/britt-sketch-square.png', // This path is relative to the root of the site.
       },
