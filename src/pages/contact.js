@@ -5,12 +5,12 @@ import SEO from '../components/seo'
 
 
 
-const TV = () => (
+const Contact = () => (
   <Layout>
     <body>
-        <SEO title="TV" />
+        <SEO title="Contact" />
 
-        <h1>TV</h1>
+        <h1>Contact</h1>
 
 
         <Link to="/">Go back to the homepage</Link>
@@ -18,7 +18,7 @@ const TV = () => (
   </Layout>
 )
 
-export default TV
+export default Contact
 
 
 

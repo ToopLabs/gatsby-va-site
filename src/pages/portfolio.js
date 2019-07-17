@@ -5,12 +5,12 @@ import SEO from '../components/seo'
 
 
 
-const About = () => (
+const Portfolio = () => (
   <Layout>
     <body>
-        <SEO title="About" />
+        <SEO title="Portfolio" />
 
-        <h1>About</h1>
+        <h1>Portfolio</h1>
 
 
 
@@ -19,7 +19,7 @@ const About = () => (
   </Layout>
 )
 
-export default About
+export default Portfolio
 
 
 

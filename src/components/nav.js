@@ -14,16 +14,13 @@ const Nav = () => {
             <span></span>
             <ul className="menu">
                 <li>
-                    <Link onClick={toggleNav} to="/">Britt Clennett</Link>
+                    <Link onClick={toggleNav} to="/">Home</Link>
                 </li>
                 <li>
-                    <Link onClick={toggleNav} to="/showreel">Showreel</Link>
+                    <Link onClick={toggleNav} to="/portfolio">Portfolio</Link>
                 </li>
                 <li>
-                    <Link onClick={toggleNav} to="/tv">TV</Link>
-                </li>
-                <li>
-                    <Link onClick={toggleNav} to="/about">About</Link>
+                    <Link onClick={toggleNav} to="/contact">Contact</Link>
                 </li>
             </ul>
         </div>
