@@ -7,7 +7,7 @@ const Nav = () =>
     <input type="checkbox" name="" />
     <span></span>
     <span></span>
-    <ul class="menu">
+    <ul className="menu">
         <li>
             <Link to="/">Britt Clennett</Link>
         </li>

@@ -1,22 +1,33 @@
 .navigation {
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
-    justify-content: left;
-    background: #fff;
+    top:0;
+    right: 0;
+    /* background: #fff; */
     transition: 0.5s;
     overflow: hidden;
+    z-index: 1;
 }
 
 
     .navigation .menu {
+        padding-top: 40px;
+        padding-left: 0px;
         margin: 0;
-        padding: 0;
         width: 0;
         overflow: hidden;
+        position: fixed;
+        top:0;
+        right:0;
+        height: 100vh;
+        background: #f43;
         transition: 0.5s;
     }
     .navigation input:checked ~ .menu {
+        position: fixed;
+        top:0;
+        right:0;
         width: 100vw;
         height: 100vh;
         background: #f43;
@@ -42,7 +53,7 @@
         height: 40px;
         cursor: pointer;
         opacity: 0;
-
+        z-index: 2;
     }
     .navigation span {
         position: absolute;
@@ -52,9 +63,10 @@
         background: #f43;
         pointer-events: none;
         transition: 0.5s;
+        z-index: 2;
     }
     .navigation input:checked ~ span {
-        background: #f43;
+        background: #fff;
     }
     .navigation span:nth-child(2) {
         transform: translateY(-8px);

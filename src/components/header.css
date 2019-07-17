@@ -1,4 +1,5 @@
 .header {
+    position:fixed;
     color: #f43;
     display: flex;
     justify-content: flex-end;
