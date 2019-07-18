@@ -88,3 +88,12 @@
         transform: translateY(0) rotate(-45deg);
     }
 
+
+
+@media (min-width: 1200px) {
+    .navigation .menu li a {
+
+        font-size: 2rem;
+
+    }
+}

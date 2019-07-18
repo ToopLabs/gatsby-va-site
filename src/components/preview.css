@@ -123,3 +123,18 @@
                     font-stretch: condensed;
                 }
 
+
+
+@media (min-width: 1200px) {
+    .preview .list {
+        margin: 0 auto;
+        padding: 2rem 1rem 0;
+        grid-gap: 3rem;
+        max-width: 60rem;
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+
+
+    }
+
+}
