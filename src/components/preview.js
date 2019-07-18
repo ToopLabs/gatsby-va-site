@@ -9,9 +9,6 @@ const Preview = () =>
     <h2>
         Stories in the region
     </h2>
-    <p>
-        2000+ Tweets. 200+ Live Stories. 50+ Published Articles.
-    </p>
     <ul className="list">
         <Link className="item" to="/2018-thai-cave-rescue">
             <div className="thumb">
