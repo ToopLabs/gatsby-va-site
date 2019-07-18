@@ -6,12 +6,6 @@ import './preview.css'
 
 const Preview = () =>
 <section className="preview">
-    <h2>
-        Britt has covered some of the biggest stories in the region
-    </h2>
-    <p>
-        2018 Thai cave rescue. The historic first summit between North and South Korea. Donald Trump’s debut visit to Beijing as US President.
-    </p>
     <ul className="list">
         <Link className="item" to="/2018-thai-cave-rescue">
             <div className="thumb">

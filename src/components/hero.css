@@ -12,6 +12,7 @@
 .hero h1 {
     padding: 0 0 0.3em 0;
     margin: 0;
+    text-align: center;
     line-height: 0.8em;
     font-size: 18vw;
     overflow-x: hidden;
@@ -50,10 +51,9 @@ img {
 }
 
 .hero h2 {
-    padding: 0 30vw 0 0;
     margin: 0 0 1em 0;
     font-size: 1.6em;
-
+    text-align: center;
     font-weight: 200;
     font-family: Roboto;
     font-stretch: condensed;
@@ -69,19 +69,20 @@ img {
 
     .hero h1 {
         font-size: 7.5rem;
-        max-width: 8em;
         display: block;
         padding: 0;
         margin: 0;
         line-height: 0.8em;
-        font-weight: 700;
         padding-bottom: 0.3em;
         overflow-x: hidden;
+        text-align: center;
+        font-weight: 200;
+        font-family: Roboto;
+        font-stretch: condensed;
     }
 
     .hero h1 span {
-        font-size: 7.5rem;
-        padding-right: 0.25em;
-        float: left;
+        display: block;
+
     }
 }

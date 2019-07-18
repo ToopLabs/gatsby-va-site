@@ -12,10 +12,10 @@ const Hero = () =>
         <span>Britt</span>
         <span>Clennett</span>
     </h1>
-    <div className="shots">
-        {/*<img className="shot2" src={shot1} alt="Shot1" />*/}
+    {/*<div className="shots">
+        <img className="shot2" src={shot1} alt="Shot1" />
         <img className="shot1" src={shot2} alt="Shot2" />
-    </div>
+    </div>*/}
     <h2>
         Correspondent
     </h2>

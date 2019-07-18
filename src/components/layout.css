@@ -4,6 +4,7 @@ html {
     font-stretch: condensed;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
+    color: #555555;
 }
 
 body {
