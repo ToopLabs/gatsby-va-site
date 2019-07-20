@@ -3,20 +3,20 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Hero from '../components/hero'
-import Preview from '../components/preview'
+import Portfolio from '../components/portfolio'
 import Clients from '../components/clients'
-import Showreel from '../components/showreel'
 import Bio from '../components/bio'
 import Banner from '../components/banner'
 import protestShot from '../images/protest_shot.jpg'
-import showreelVideo from '../images/Britt_Clennett_Apri_2019.mp4'
+import showreelThumb from '../images/showreel_thumb.png'
+import showreelVideo from '../videos/showreel.mp4'
 
 const HomePage = () => (
 <Layout>
-    <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+    <SEO title="Home" keywords={['portfolio', 'journalist', 'showreel', 'asia', 'reporter', 'Hong Kong', 'china']} />
     <Hero />
     <Banner>
-        <video muted controls loop preload="auto">
+        <video muted poster={showreelThumb} controls loop preload="auto">
             <source src={showreelVideo} type="video/mp4" media="all and (min-width:769px)" />
         </video>
     </Banner>
@@ -25,7 +25,7 @@ const HomePage = () => (
         <img src={protestShot} />
     </Banner>
     <Clients />
-    <Preview />
+    <Portfolio />
 </Layout>
 )
 

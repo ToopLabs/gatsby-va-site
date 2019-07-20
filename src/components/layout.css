@@ -4,6 +4,7 @@ html {
     font-stretch: condensed;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
+    -webkit-font-smoothing: antialiased;
     color: #555555;
 }
 

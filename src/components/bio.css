@@ -34,7 +34,12 @@
         font-weight: 200;
         font-family: Roboto;
         font-stretch: condensed;
+
     }
+
+        .bio p a {
+            color: inherit;
+        }
 
 
 @media (min-width: 1200px) {

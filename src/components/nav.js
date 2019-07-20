@@ -17,7 +17,7 @@ const Nav = () => {
                     <Link onClick={toggleNav} to="/">Home</Link>
                 </li>
                 <li>
-                    <Link onClick={toggleNav} to="/portfolio">Portfolio</Link>
+                    <Link onClick={toggleNav} to="/#portfolio">Portfolio</Link>
                 </li>
                 <li>
                     <Link onClick={toggleNav} to="/contact">Contact</Link>
