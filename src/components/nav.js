@@ -20,7 +20,7 @@ const Nav = () => {
                     <Link onClick={toggleNav} to="/#portfolio">Portfolio</Link>
                 </li>
                 <li>
-                    <Link onClick={toggleNav} to="/contact">Contact</Link>
+                    <Link onClick={toggleNav} to="/#contact">Contact</Link>
                 </li>
             </ul>
         </div>

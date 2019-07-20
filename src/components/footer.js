@@ -17,10 +17,10 @@ c5.2-1.4,9.3-5.5,10.7-10.7c2.5-9.5,2.5-29.2,2.5-29.2S121.5,22.8,118.9,13.3z`
                             <Link to="/" >Home</Link>
                         </li>
                         <li className="item">
-                            <Link to="/portfolio">Portfolio</Link>
+                            <Link to="/#portfolio">Portfolio</Link>
                         </li>
                         <li className="item">
-                            <Link to="/contact">Contact</Link>
+                            <Link to="/#contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
