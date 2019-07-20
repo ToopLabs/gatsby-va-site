@@ -26,7 +26,7 @@ const Portfolio = () =>
     <ul className="list">
         <div className="item">
             <div className="thumb">
-                <video muted poster={changingFaceThumb} controls loop preload="auto">
+                <video muted poster={changingFaceThumb} controls loop preload="none">
                     <source src={changingFaceVideo} type="video/mp4" media="all and (min-width:769px)" />
                 </video>            </div>
             <div className="description">
@@ -78,7 +78,7 @@ const Portfolio = () =>
         </Link>*/}
         <div className="item">
             <div className="thumb">
-                <video muted poster={colivingGainsPopularityThumb} controls loop preload="auto">
+                <video muted poster={colivingGainsPopularityThumb} controls loop preload="none">
                     <source src={colivingGainsPopularityVideo} type="video/mp4" media="all and (min-width:769px)" />
                 </video>            </div>
             <div className="description">
@@ -95,7 +95,7 @@ const Portfolio = () =>
         </div>
         <div className="item">
             <div className="thumb">
-                <video muted poster={bridgeThreatensDolphinsThumb} controls loop preload="auto">
+                <video muted poster={bridgeThreatensDolphinsThumb} controls loop preload="none">
                     <source src={bridgeThreatensDolphinsVideo} type="video/mp4" media="all and (min-width:769px)" />
                 </video>            </div>
             <div className="description">
@@ -112,7 +112,7 @@ const Portfolio = () =>
         </div>
         <div className="item">
             <div className="thumb">
-                <video muted poster={hongKongBooksellerThumb} controls loop preload="auto">
+                <video muted poster={hongKongBooksellerThumb} controls loop preload="none">
                     <source src={hongKongBooksellerVideo} type="video/mp4" media="all and (min-width:769px)" />
                 </video>            </div>
             <div className="description">
@@ -129,7 +129,7 @@ const Portfolio = () =>
         </div>
         <div className="item">
             <div className="thumb">
-                <video muted poster={activistsJailedThumb} controls loop preload="auto">
+                <video muted poster={activistsJailedThumb} controls loop preload="none">
                     <source src={activistsJailedVideo} type="video/mp4" media="all and (min-width:769px)" />
                 </video>            </div>
             <div className="description">
@@ -170,7 +170,7 @@ const Portfolio = () =>
         </div>
         <div className="item">
             <div className="thumb">
-                <video muted poster={ivoryTradeThumb} controls loop preload="auto">
+                <video muted poster={ivoryTradeThumb} controls loop preload="none">
                     <source src={ivoryTradeVideo} type="video/mp4" media="all and (min-width:769px)" />
                 </video>            </div>
             <div className="description">
