@@ -17,7 +17,7 @@ const Hero = () =>
         <img className="shot1" src={shot2} alt="Shot2" />
     </div>*/}
     <h2>
-        Correspondent
+        Journalist
     </h2>
 </section>
 

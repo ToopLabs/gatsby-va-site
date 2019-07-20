@@ -10,6 +10,13 @@ import bridgeThreatensDolphinsVideo from '../videos/bridge_threatens_dolphins.mp
 import bridgeThreatensDolphinsThumb from '../images/bridge_threatens_dolphins_thumb.png'
 import hongKongBooksellerVideo from '../videos/hong_kong_bookseller.mp4'
 import hongKongBooksellerThumb from '../images/hong_kong_bookseller_thumb.png'
+import activistsJailedVideo from '../videos/activists_jailed.mp4'
+import activistsJailedThumb from '../images/activists_jailed_thumb.png'
+import counterfeitMarketAudio from '../audio/counterfeit_market.mp3'
+import counterfeitMarketThumb from '../images/counterfeit_market_thumb.jpg'
+import ivoryTradeVideo from '../videos/ivory_trade.mp4'
+import ivoryTradeThumb from '../images/ivory_trade_thumb.png'
+
 
 import './portfolio.css'
 
@@ -117,6 +124,64 @@ const Portfolio = () =>
                 </div>
                 <div className="action">
                     TRT WORLD - Correspondent
+                </div>
+            </div>
+        </div>
+        <div className="item">
+            <div className="thumb">
+                <video muted poster={activistsJailedThumb} controls loop preload="auto">
+                    <source src={activistsJailedVideo} type="video/mp4" media="all and (min-width:769px)" />
+                </video>            </div>
+            <div className="description">
+                <div className="title">
+                    Activists jailed for role in mass protests
+                </div>
+                <div className="body">
+                    Almost five years after the Occupy protests paralysed parts of the city for 79 days, seven of its leaders were given jail sentences today.
+                </div>
+                <div className="action">
+                    TRT WORLD - Correspondent
+                </div>
+            </div>
+        </div>
+        <div className="item">
+            <div className="thumb">
+                <img src={counterfeitMarketThumb} />
+                <figure>
+                    <audio
+                        controls
+                        src={counterfeitMarketAudio}>
+                            Your browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                </figure>
+            </div>
+            <div className="description">
+                <div className="title">
+                    China's counterfeit market thrives despite amid economic slowdown
+                </div>
+                <div className="body">
+                    Shop vendors at a popular market in Beijing, sales of brands like the iconic “Canada Goose” have been faring well thanks to chilly weather and slashed prices.
+                </div>
+                <div className="action">
+                    CBC :  Correspondent
+                </div>
+            </div>
+        </div>
+        <div className="item">
+            <div className="thumb">
+                <video muted poster={ivoryTradeThumb} controls loop preload="auto">
+                    <source src={ivoryTradeVideo} type="video/mp4" media="all and (min-width:769px)" />
+                </video>            </div>
+            <div className="description">
+                <div className="title">
+                    Culture vs. Conservation: China’s Ivory Trade
+                </div>
+                <div className="body">
+                    Chinese demand for elephant tusks is fueling poaching of elephants in Africa (leading to a possible extinction). Activists say age-old perceptions towards so-called "white gold" need to be changed.
+                </div>
+                <div className="action">
+                    CGTN - Presenter/Producer
                 </div>
             </div>
         </div>

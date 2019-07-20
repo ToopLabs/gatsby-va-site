@@ -28,8 +28,8 @@ c5.2-1.4,9.3-5.5,10.7-10.7c2.5-9.5,2.5-29.2,2.5-29.2S121.5,22.8,118.9,13.3z`
                     <ul className="list">
                         <li className="item">
                             <svg className="icon" viewBox="0 0 120 55" xmlns="http://www.w3.org/2000/svg">
-                                <path d={youtubeIcon} fill="white"></path>
-                                <polygon points="48.6,60.7 80.2,42.5 48.6,24.3" fill="grey"></polygon>
+                                <path d={youtubeIcon} fill="currentColor"></path>
+                                <polygon points="48.6,60.7 80.2,42.5 48.6,24.3" fill="white"></polygon>
                             </svg>
                             <a href="https://www.youtube.com/channel/UCKUYXHsxEe2WiE1Ns-AHqpg">YouTube</a>
                         </li>

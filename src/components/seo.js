@@ -62,7 +62,8 @@ function SEO({ description, lang, meta, keywords, title }) {
               .concat(meta)}
           >
           {/*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />*/}
-          <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+          {/*<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />*/}
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans+condensed:300|Raleway&display=swap" rel="stylesheet" />
           </Helmet>
         )
       }}

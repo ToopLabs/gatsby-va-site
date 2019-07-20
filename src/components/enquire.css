@@ -1,0 +1,25 @@
+.enquire {
+    background-color: #424448;
+    margin: 0;
+    position: relative;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+
+}
+
+.enquire .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+        .enquire .container .form-container {
+
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }

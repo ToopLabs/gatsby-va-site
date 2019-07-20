@@ -1,8 +1,8 @@
 .footer {
     overflow: hidden;
     padding-top: 6rem;
-    background-color: #5a5a5d;
-    color: #fff;
+    /* background-color: #5a5a5d; */
+    /* color: #fff; */
     display: block;
 }
 
@@ -33,6 +33,13 @@
 
             .footer .list .item a {
                 color: inherit;
+                text-decoration: none;
+                cursor: pointer;
+                white-space: nowrap;
+            }
+
+            .footer .list .item a:hover {
+                color: #f43;
                 text-decoration: none;
                 cursor: pointer;
                 white-space: nowrap;
