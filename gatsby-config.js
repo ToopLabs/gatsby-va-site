@@ -72,5 +72,20 @@ module.exports = {
             url: "https://api-apeast.graphcms.com/v1/cjtkv4yoq6k6201b94et96ls8/master",
         },
     },
+    {
+        resolve: "gatsby-plugin-google-tagmanager",
+        options: {
+            id: "UA-144234610-1",
+
+            // Include GTM in development.
+            // Defaults to false meaning GTM will only be loaded in production.
+            includeInDevelopment: false,
+
+            // datalayer to be set before GTM is loaded
+            // should be an object or a function that is executed in the browser
+            // Defaults to null
+            defaultDataLayer: { platform: "gatsby" },
+        },
+    },
   ],
 }
