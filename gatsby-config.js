@@ -51,7 +51,7 @@ module.exports = {
       options: {
         name: 'Britt Clennett',
         short_name: 'Britt',
-        start_url: '/britt',
+        start_url: '/',
         background_color: '#f43',
         theme_color: '#f43',
         display: 'minimal-ui',
