@@ -9,12 +9,6 @@ module.exports = {
     author: 'Jordan',
   },
   plugins: [
-    {
-      resolve: `gatsby-mdx`,
-      options: {
-        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
-      },
-    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
