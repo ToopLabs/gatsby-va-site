@@ -19,11 +19,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Nav />
         <div style={{ 'min-height': '80vh'}}>
           {children}
         </div>
-        <Footer />
       </>
     )}
   />
