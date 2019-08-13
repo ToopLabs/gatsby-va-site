@@ -14,6 +14,7 @@
     "gatsby-source-filesystem": "^2.0.29",
     "gatsby-source-graphql": "^2.0.1",
     "gatsby-transformer-sharp": "^2.1.18",
+    "netlify-lambda": "^1.5.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -29,7 +30,9 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "yarn build && rm -rf ./docs && mv ./public ./docs && cp ./CNAME ./docs && git add . && git commit -m \"publish\" && git push"
+    "deploy": "yarn build && rm -rf ./docs && mv ./public ./docs && cp ./CNAME ./docs && git add . && git commit -m \"publish\" && git push origin master",
+    "netlify": "git add . && git commit -m \"netlify publish\" && git push origin netlify",
+    "netlify-lambda": "netlify-lambda serve ."
   },
   "devDependencies": {
     "prettier": "^1.17.0"
